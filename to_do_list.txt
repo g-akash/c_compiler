@@ -1,0 +1,36 @@
+
+fall==1 and t1 float t2 int
+
+**newlabel ki condition handle karni hai saare operators mein
+
+
+
+
+ye karenge
+
+
+make the storing shorter in case of operators.
+
+generate error when assignment of struct in if condition
+
+write code for ++.
+generate condition code for unary operators.
+deref codegnereration
+
+funcall me codition code generate 
+
+
+
+
+lines 265-267
+
+check that main is defined
+
+
+///////////////////////////////
+corner test cases
+
+if(a==b==c)
+
+
+

@@ -1,0 +1,26 @@
+
+in codegenerator function(int n): 1: store value
+						   		  2: store address
+
+
+Activation Record:  
+
+Return Value
+DL
+Param
+ra
+locals
+
+<top of stack>
+
+all the values are being pushed in the stack
+
+
+calling the code generator in function definition.. 
+
+
+fall==0(false)
+fall==1(true)
+fall==2(no code generation of jump)
+
+s1 ko s0 assign karna hai

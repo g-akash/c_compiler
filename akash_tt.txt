@@ -1,0 +1,67 @@
+////////////////////////////////// following says too many agruments!!!! wtf!
+1.
+// #include <stdio.h>
+
+int ack(int m,int n){
+	if(m==0)
+		return n+1;
+	else{
+		if(m>0 && n==0){
+			return ack(m-1,1);
+		}
+		else{
+			return ack(m-1,ack(m,n-1));
+		}
+	}
+}
+
+int main(){;
+	int i,j;
+	for(i=0;i<4;i++){
+		for (j= 0; j < 5; j++)
+		{
+			// printf("%d\n",ack(i,j));
+			printf(ack(i,j));
+			/* code */
+		}
+	}
+}
+
+
+
+///////////////////////////////////////////////////////////
+2.
+// getting printed in opposite order
+
+struct abc{
+	int a;
+	float f[10];
+};
+
+struct cd{
+	float a;
+	struct abc ha[10];
+};
+
+int main()
+{
+	int c,i,j,k;
+	float f,g,h;
+	struct abc a[3],b;
+	struct cd f1,g1;
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			a[i].f[j]=1.11*j;
+		}
+	}
+	b=a[1];
+	for (i = 0; i < 10; i++)
+	{
+		printf(b.f[i]);
+	}
+	return 0;
+}
+
+
